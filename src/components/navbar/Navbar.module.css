@@ -1,0 +1,95 @@
+.NavbarBase {
+    background-color: white;
+    border-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-shadow: 0px 3px 5px rgb(236, 236, 236);
+}
+
+.NavbarContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavbarText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.MainLogo {
+    max-width: 90px;
+}
+
+.Wrapper {
+    margin-left: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Cart {
+    width: auto;
+    height: auto;
+    max-width: 74px;
+    max-height: 74px;
+}
+
+.Cart:hover {
+    opacity: 0.86;
+}
+
+.OrderHistory {
+    margin-left: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 36px;
+    border-radius: 25px;
+    border: 2px solid;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.OrderHistory:hover {
+    background-color: rgb(248, 248, 248);
+}
+
+.LogOut {
+    margin-left: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 36px;
+    border-radius: 25px;
+    border: 2px solid;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.LogOut:hover {
+    background-color: rgb(248, 248, 248);
+}
+
+.NavbarButton {
+    width: 150px;
+    height: 26px;
+    background-color: white;
+    border: 1.9px solid;
+    border-radius: 25px;
+    border-color: black;
+    box-shadow: 0px 3px 5px rgb(236, 236, 236);
+    margin-left: 35px;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.NavbarButton:hover {
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 3px 5px rgb(231, 231, 231);
+    cursor: pointer;
+}
